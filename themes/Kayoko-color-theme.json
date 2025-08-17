@@ -1,0 +1,146 @@
+{
+	"name": "Kayoko Black White Red",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#2B2B2B",
+		"editor.foreground": "#FFFFFF",
+		"editorLineNumber.foreground": "#AAAAAA",
+		"editorLineNumber.activeForeground": "#FF3333",
+		"editor.selectionBackground": "#552222",
+		"editor.inactiveSelectionBackground": "#44222280",
+		"editorCursor.foreground": "#FF3333",
+		"editorWhitespace.foreground": "#444444",
+		"editorIndentGuide.background1": "#444444",
+		"editorIndentGuide.activeBackground1": "#FF3333",
+		"editor.lineHighlightBackground": "#333333",
+
+		"sideBar.background": "#2B2B2B",
+		"sideBar.foreground": "#FFFFFF",
+
+		"activityBar.background": "#2B2B2B",
+		"activityBar.foreground": "#FF3333",
+		"activityBarBadge.background": "#FF3333",
+		"activityBarBadge.foreground": "#FFFFFF",
+
+		"statusBar.background": "#2B2B2B",
+		"statusBar.foreground": "#FFFFFF",
+		"statusBar.noFolderBackground": "#2B2B2B",
+		"statusBar.noFolderForeground": "#FFFFFF",
+		"statusBar.debuggingBackground": "#FF3333",
+		"statusBar.debuggingForeground": "#FFFFFF",
+		"statusBar.debuggingBorder": "#2B2B2B",
+		"statusBar.border": "#2B2B2B",
+		"statusBarItem.remoteBackground": "#FF3333",
+		"statusBarItem.remoteForeground": "#FFFFFF",
+
+
+		"textLink.foreground": "#FF3333",
+		"textLink.activeForeground": "#CC0000",
+
+		"tab.activeBackground": "#2B2B2B",
+		"tab.inactiveBackground": "#1E1E1E",
+		"tab.activeForeground": "#FFFFFF",
+		"tab.inactiveForeground": "#AAAAAA",
+
+		"titleBar.activeBackground": "#2B2B2B",
+		"titleBar.activeForeground": "#FFFFFF",
+		"titleBar.inactiveBackground": "#1E1E1E",
+		"titleBar.inactiveForeground": "#AAAAAA",
+		"titleBar.border": "#2B2B2B",
+
+		"button.background": "#FF3333",
+		"button.foreground": "#FFFFFF",
+		"button.hoverBackground": "#CC0000",
+
+		"dropdown.background": "#2B2B2B",
+		"dropdown.foreground": "#FFFFFF",
+		"dropdown.border": "#FF3333",
+
+		"list.activeSelectionBackground": "#FF3333",
+		"list.activeSelectionForeground": "#FFFFFF",
+		"list.inactiveSelectionBackground": "#333333",
+		"list.inactiveSelectionForeground": "#FFFFFF",
+		"list.hoverBackground": "#444444",
+
+		"badge.background": "#FF3333",
+		"badge.foreground": "#FFFFFF",
+
+		"terminal.background": "#2B2B2B",
+		"terminal.foreground": "#FFFFFF",
+		"terminalCursor.foreground": "#FF3333"
+	},
+	"tokenColors": [
+  {
+    "name": "Comments",
+    "scope": ["comment", "punctuation.definition.comment"],
+    "settings": { "foreground": "#AAAAAA", "fontStyle": "italic" }
+  },
+  {
+	  "name": "Parentheses, Brackets, Braces",
+		"scope": [
+			"punctuation.definition.parameters",
+			"punctuation.definition.array",
+			"punctuation.definition.arguments",
+			"punctuation.section.scope",
+			"punctuation.definition.block",
+			"punctuation.definition.brackets",
+			"punctuation.definition.group",
+			"punctuation"
+		],
+		"settings": {
+			"foreground": "#ffffff"
+		}
+  },
+  {
+    "name": "Keywords & Storage",
+    "scope": ["keyword", "storage", "storage.type", "storage.modifier"],
+    "settings": { "foreground": "#FF3333", "fontStyle": "bold" }
+  },
+  {
+    "name": "Operators & Punctuation",
+    "scope": ["keyword.control", "punctuation", "meta.tag"],
+    "settings": { "foreground": "#FF3333" }
+  },
+  {
+    "name": "Variables",
+    "scope": ["variable", "string constant.other.placeholder"],
+    "settings": { "foreground": "#FFFFFF" }
+  },
+  {
+    "name": "Functions & Methods",
+    "scope": ["entity.name.function", "meta.function-call", "support.function"],
+    "settings": { "foreground": "#FF6666" }
+  },
+  {
+    "name": "Classes & Types",
+    "scope": ["entity.name.type", "support.class", "support.type"],
+    "settings": { "foreground": "#FF5555" }
+  },
+  {
+    "name": "Strings",
+    "scope": ["string", "constant.other.symbol"],
+    "settings": { "foreground": "#FFFFFF" }
+  },
+  {
+    "name": "Numbers & Constants",
+    "scope": ["constant.numeric", "constant.language", "support.constant"],
+    "settings": { "foreground": "#FF5555" }
+  },
+  {
+    "name": "Attributes & Tags",
+    "scope": ["entity.other.attribute-name", "entity.name.tag"],
+    "settings": { "foreground": "#FF3333", "fontStyle": "italic" }
+  },
+  {
+    "name": "Invalid / Errors",
+    "scope": ["invalid", "invalid.illegal"],
+    "settings": { "foreground": "#FFFFFF", "fontStyle": "bold" }
+  },
+  {
+    "name": "Fallback (Everything Else)",
+    "scope": ["source", "text"],
+    "settings": { "foreground": "#FFFFFF" }
+  }
+]
+
+}

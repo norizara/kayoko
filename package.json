@@ -1,0 +1,21 @@
+{
+  "name": "kayoko",
+  "displayName": "Kayoko",
+  "description": "A VSCode theme focusing on black, red and white as it's primary colors",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kayoko",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Kayoko-color-theme.json"
+      }
+    ]
+  }
+}
