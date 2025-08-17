@@ -1,0 +1,19 @@
+{
+  "name": "juns-theme",
+  "displayName": "Kayoko Black White Red",
+  "publisher": "junfa",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kayoko Black White Red",
+        "uiTheme": "vs-dark",
+        "path": "./Kayoko-color-theme.json"
+      }
+    ]
+  }
+}
